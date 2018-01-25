@@ -1,0 +1,24 @@
+﻿Release notes - DFA BI DW - Version Version 4.2
+
+
+** Task
+    * [DBD-230] - Add Dairy Maid historical data
+    * [DBD-280] - Update FactSales cost field based on JDE lookup cost
+    * [DBD-284] - Add Distribution Center Dimension
+    * [DBD-316] - GL - LTM time calculations
+    * [DBD-317] - GL - add code and name seperately
+    * [DBD-321] - GL - Rename measures
+    * [DBD-322] - GL - Additional time calculations
+    * [DBD-324] - Create conversion for 15 and 16 Indirect Files
+    * [DBD-326] - Add Sales Budget to the DW - use spreadsheet as source
+    * [DBD-332] - GL - 2018 budget data (pre-populate DimDate for next 2 years)
+    * [DBD-333] - GL - Add new fields
+
+** Bug
+    * [DBD-272] - Rebates missing data
+
+Set up driver for Excel file imports - Microsoft Access (OLEDB 16.0 32 bit)
+https://www.microsoft.com/en-us/download/details.aspx?id=54920
+
+Add folders for import F:\Data Exchange\SalesBudget and F:\Data Exchange\SalesBudget\Archive - Change Security on the folders to allow 
+sqlsvcaz (sqlsvcaz@dfamilk.com) security rights to move the file from SalesBudget to Archive
